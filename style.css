@@ -1,0 +1,67 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+body{
+    display: flex;
+    background-color:#18122B;
+}
+.box{
+    display:flex;
+    flex-direction:column;
+    background: #393053;
+    width: 450px;
+    height: 535px;
+    margin:35px;
+    border-radius: 15px;
+}
+.title{
+    text-align:center;
+    color:#F1F1F1;
+    font-weight: bolder;
+}
+#ipi10975,#upperCase,#ipi105 {
+    width:50%;
+    margin-right:5px;
+    height: 20px;
+    border-radius:7px;
+    text-align: center;
+    border:none;
+}
+#btnConvertIpi105,#btnConvert,#btnConvertIpi10975,#btn{
+    border:none;
+    height: 24px;
+    width:90px;
+    border-radius:7px;
+    cursor:pointer;
+    background-color: #18122B;
+    color:#f1f1f1;
+}
+#teste{
+    display: flex;
+    justify-content:center;
+}
+#result,#result10975,#result105{
+    text-align:center;
+    margin-top:15px;
+    /*background:#635985;*/
+    height:75%;
+    border-radius:10px;
+    color:#f1f1f1;
+    overflow-y:auto;
+    overflow-x: auto;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #49349c11;
+    border-radius:7px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background: #49349c11;
+    height: 6px;
+    border-radius:7px;
+}
+::-webkit-scrollbar-thumb {
+    background:rgb(88, 79, 116);
+    border-radius:7px;
+}
