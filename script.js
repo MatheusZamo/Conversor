@@ -30,7 +30,7 @@ const multiplica = (resultado) =>{
   const x = valorFinal.toString().replace(".",",")
   
   const p = document.createElement('p')
-  p.innerHTML = `${x} <button id ='btn' onclick='copiar(${divisaoDoValor})'>Copiar</button>`
+  p.innerHTML = `${x} <button id ='btn' onclick='copiar(${x})'>Copiar</button>`
   result10975.appendChild(p)
 }
 
